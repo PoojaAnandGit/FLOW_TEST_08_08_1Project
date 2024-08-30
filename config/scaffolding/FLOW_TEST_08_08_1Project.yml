@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/PoojaAnandGit
   gitUsername: PoojaAnandGit
   gitBranch: main
+services:
+- serviceName: project.flow_test_08_08_1.integrations:test6184
+  packages:
+  - name: FLOW_TEST_08_08_1Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1136
